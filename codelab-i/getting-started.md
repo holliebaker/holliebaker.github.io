@@ -7,6 +7,8 @@
 It's a classic. You cannot say you know how to code in a language until you have honoured this [tradition][https://en.wikipedia.org/wiki/%22Hello,_World!%22_program].
 Write a program which prints "Hello world!" to your terminal.
 
+Commit your work and push it to GitHub (you can use the `codelab-i` repo, or create a now one to store your projects).
+
 ### Foo, Bar and Baz
 
 Write a program which declares three variables, and int, a float and a double, with names `foo`, `bar` and `baz`. Asother rite of passage in programming done. Honourable mention to `pippo`, the lesser-known cousin from Italy. Why not add a `pippo`, type is your choice.
@@ -19,6 +21,8 @@ Write a program which declares three variables, and int, a float and a double, w
 - What about a double?
 - Read up on floating-point errors.
 </details>
+
+Don't forget to commit your work and push it to GitHub.
 
 ### Mark Calculator
 
@@ -79,4 +83,6 @@ The following coins were used:
 
 For example, change of 1 shilling and 10 pence could be given as a one shilling coin plus ten pennies, but nobody likes having a pocket full of shrapnel, so it would be better to give the customer one shilling, one sixpence, one threepence and a penny.
 </details>
+
+Tip: after you've got each step working, commit and push your work. Then you can easily return to an earlier working version, if you wish.
 

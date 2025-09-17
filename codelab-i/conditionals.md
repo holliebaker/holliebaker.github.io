@@ -46,3 +46,29 @@ Adapt your program to handle the case when the numbers are not entered in ascend
 I.e., for your existing logic to keep working, you'll need to re-arrange the inputted numbers so that A <= B <= C
 </details>
 
+### Days in each month
+
+Write a program which takes a number from 1 to 12 as input, representing a month of the year.
+The program should use a **switch statement** to output the number of days in that month.
+
+<details>
+<summary>Extension tasks</summary>
+
+- What happens if the user enters a number which doesn't represent a month of the year.
+- What happens if the user enters some input which is not a number?
+- What about leap-years?
+</details>
+
+### Terminal User Interface
+
+Use a **switch statement** to create a Terminal User Interface.
+The user should be able to enter a number, or letter, corresponding to a menu choice.
+Don't forget to consider input validation.
+
+### Roman Numerals
+
+Use a **switch statement** to convert roman numerals `I, II, III, IV, V, VI, VII, VIII, IV, X` into their numerical counterparts.
+Can you use *fallthrough* to make your code, if not simpler, but shorter?
+
+
+
