@@ -65,6 +65,11 @@ Use a **switch statement** to create a Terminal User Interface.
 The user should be able to enter a number, or letter, corresponding to a menu choice.
 Don't forget to consider input validation.
 
+### Calculator App
+
+Use a switch statement to build a terminal-based calculator. The user should be able to enter a number, an operator and a second number. E.g., `3 + 5`.
+Process this input, storing the two numbers and the operator in variables, then use the switch statement to decide which mathematical operation to perform.
+
 ### Roman Numerals
 
 Use a **switch statement** to convert roman numerals `I, II, III, IV, V, VI, VII, VIII, IV, X` into their numerical counterparts.
