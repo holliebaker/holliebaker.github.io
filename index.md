@@ -1,10 +1,5 @@
----
-layout: home
----
+# Hello, world!
 
-# Hollie Baker
-
-Associate Lecturer in Computing at Bath Spa University, Bath, UK
-
-PhD in Computer Science (Computer Algebra, Algorithms and Complexity).
+- Associate Lecturer in Computing at [Bath Spa Uni](https://bathspa.ac.uk/).
+- PhD in theoretical computir science (real algebraic geometry, algorithm design) from the [University of Bath](https://bath.ac.uk/)
 
