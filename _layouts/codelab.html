@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="{{ '/codelab-i' | relative_url }}">
+          <h1>Codelab I Exercises</h1>
+        </a>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+  </body>
+
+  <hr />
+  <footer>
+    <div class="container">
+      <p>
+      <a id="a-index" href="{{ '/codelab-i' | relative_url }}">
+        Back to exercises
+      </a>
+      |
+      <a id="a-home" href="{{ '/codelab-i' | relative_url }}">
+        Back to homepage
+      </a>
+      </p>
+      <p>
+      Powered by
+      <a id="a-jekyll" href="https://jekyllrb.com/">Jekyll</a>,
+      hosted on
+      <a id="a-gh-pages" href="https://docs.github.com/en/pages">GitHub Pages</a>.
+      </p>
+    </div>
+  </footer>
+</html>
+

@@ -1,4 +1,6 @@
-# Codelab I Exercises
+---
+layout: codelab
+---
 
 ## Loops
 

@@ -1,25 +1,29 @@
-# Codelab I Exercises
+---
+layout: codelab
+---
 
 ## Getting Started
 
 ### Hello, world!
 
-It's a classic. You cannot say you know how to code in a language until you have honoured this [tradition][https://en.wikipedia.org/wiki/%22Hello,_World!%22_program].
+It's a classic. You cannot claim to be able to code in a language until you have honoured this [tradition](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program).
 Write a program which prints "Hello world!" to your terminal.
 
 Commit your work and push it to GitHub (you can use the `codelab-i` repo, or create a now one to store your projects).
 
 ### Foo, Bar and Baz
 
-Write a program which declares three variables, and int, a float and a double, with names `foo`, `bar` and `baz`. Asother rite of passage in programming done. Honourable mention to `pippo`, the lesser-known cousin from Italy. Why not add a `pippo`, type is your choice.
+Write a program which declares three variables, and int, a float and a double, with names `foo`, `bar` and `baz`. Another rite of passage in programming done. Honourable mention to `pippo`, the lesser-known cousin from Italy. Why not add a `pippo`, type is your choice.
 
 <details>
+
 <summary>Extension tasks</summary>
 
 - What is the largest and the smallest number an `int` can hold?
 - How many decimal places can a `float` represent?
 - What about a double?
 - Read up on floating-point errors.
+
 </details>
 
 Don't forget to commit your work and push it to GitHub.
@@ -56,7 +60,7 @@ You can use the modulo (`%`) operator to handle wrapping around at the end of th
 
 ### Old skool cash register
 
-Let's build a cash register which deals with [pre-decimal currency][https://en.wikipedia.org/wiki/Coins_of_the_pound_sterling#Pre-decimal_coinage] (pounds, shillings and pence).
+Let's build a cash register which deals with [pre-decimal currency](https://en.wikipedia.org/wiki/Coins_of_the_pound_sterling#Pre-decimal_coinage) (pounds, shillings and pence).
 
 - £1 = 20 shillings (20s).
 - 1 shilling = 12 pence (12d).
