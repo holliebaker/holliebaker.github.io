@@ -1,3 +1,7 @@
+---
+layout: codelab
+---
+
 # Codelab I Exercises
 
 ## Ciphers
@@ -38,7 +42,6 @@ A substitution cipher encrypts a message by replacing each letter with a another
 ```
 a b c d e f g h i j k l m n o p q r s t u v w x y z
 B J X Z C E A G H M O N Q F I Y P U T S V W D J L K
-```
 ```
 
 With this key, `hello` would be encrypted as `GCNNI`
