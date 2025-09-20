@@ -15,8 +15,7 @@ Commit your work and push it to GitHub (you can use the `codelab-i` repo, or cre
 
 Write a program which declares three variables, and int, a float and a double, with names `foo`, `bar` and `baz`. Another rite of passage in programming done. Honourable mention to `pippo`, the lesser-known cousin from Italy. Why not add a `pippo`, type is your choice.
 
-<details>
-
+<details markdown="block">
 <summary>Extension tasks</summary>
 
 - What is the largest and the smallest number an `int` can hold?
@@ -33,16 +32,16 @@ Don't forget to commit your work and push it to GitHub.
 You have two assessments: S1 is worth 40%, S2 is worth 60%. Write a program which stores the mark for each assessment (which data type should you use?), calculates the total mark, and prints it to the terminal.
 
 Allow the user to enter their marks for S1 and S2 via the terminal.
-</details>
 
 ### Now you've made it personal
 
 Write a program which asks the user to input their name, stores it in a variable, and prints out a personalised ~~insult~~ greeting.
 
-<details>
+<details markdown="block">
 <summary>Extension task</summary>
 
 Test it. What if the user enters a first and last name?
+
 </details>
 
 ### Caesar's Cipher, one character at a time
@@ -71,7 +70,7 @@ The cash register should work as follows: the cashier will enter the value of th
 1. User input: prompt the cashier to enter the transaction amount and the amount of money the user has given.
 3. Calculate change: figure out how much change to return, and print this amount out to the terminal – fantasy customers dislike being given too many coins!
 
-<details>
+<details markdown="block">
 <summary>Extension task</summary>
 
 Modify your cash register to work with coins. I.e., calculate the coins needed for the given change.
@@ -86,7 +85,8 @@ The following coins were used:
 - Penny = 1 pence
 
 For example, change of 1 shilling and 10 pence could be given as a one shilling coin plus ten pennies, but nobody likes having a pocket full of shrapnel, so it would be better to give the customer one shilling, one sixpence, one threepence and a penny.
+
 </details>
 
-Tip: after you've got each step working, commit and push your work. Then you can easily return to an earlier working version, if you wish.
+Tip: after you've got each step working, commit and push your work. Then you can easily return to an earlier working version, if you need to.
 

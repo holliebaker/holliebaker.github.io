@@ -32,7 +32,7 @@ At this point, you might like to move on to some <em>bigger projects</em>. Alter
 
 1. See the Further Exercises section of the Codelab I repository.
 1. [Ciphers](./ciphers) - implement and attempt to break some cryptographic ciphers.
-1. Roguelike game - build a terminal-based game.
+1. [Dungeon Crawler game](./roguelike) - build a terminal-based game.
 1. Poker Hands
 1. Chatbot
 1. Graph algorithms

@@ -1,4 +1,6 @@
-# Codelab I Exercises
+---
+layout: codelab
+---
 
 ## Arrays
 
@@ -20,5 +22,78 @@ There is a famous Linux distro whose codenames consist of an animal and an adjec
 
 ## See also
 
-- Ciphers
+- [Ciphers](./ciphers)
+
+## Two-dimensional Arrays
+
+### Simple counting
+
+1. Create a `10` by `10` 2d array.
+1. Fill it with the numbers from `1` to `100` in ascending order.
+1. Print out the numbers in a grid.
+
+### Minesweeper
+
+Implement minesweeper.
+The player will be given a grid of a certain size, e.g., `5 * 7`, in which all squares are initially covered. E.g.,
+```
+#######
+#######
+#######
+#######
+#######
+```
+There will be mines under some of the squares. E.g.,
+```
+    X
+   X
+      X
+XX  XXX
+  X  X
+```
+and the player's goal is to uncover all of the clear squares without landing on a mine.
+Each time they uncover a clear square, they will be shown the number of mines on the 4 neighbouring squares. E.g., if they uncover `row 2, column `5` as their first guess, they will see
+```
+#######
+####2##
+#######
+#######
+#######
+```
+due to the mine above and to the left of that square.
+
+If the next square they uncover is `row 3, column 5` then they will see
+```
+#######
+####2##
+####1##
+#######
+#######
+```
+due to the one mine beneath that below... and so on, until either the player hits a mine or uncovers all the clear squares and wins the game.
+
+1. Decide how to represent the game state, including
+
+    - mine locations
+    - which squares are uncovered
+    - how many mines there are in total (so you can determine when the game is won)
+
+    Hint: one way could be to use a 2d array (or two) to represent the state but, of course, there are other ways.
+
+1. Populate the board -- you may want to do this randomly:
+
+    ```c++
+#include <time.h> // for the random seed
+...
+    // then in main, set the seed
+    srand(time(NULL));
+
+    // for each square in the grid, decide whether it wiss contain a mine
+    bool hasMine = (rand() % 5) == 0; // one in five chance of there being a mine on the square
+    ```
+
+1. User input: the player will need to be able to input the position of the square they want to reveal.
+1. Calculate the number of mines on the four neighbouring squares.
+1. Game loop: the board should be printed, and the player should be prompted for input repeatedly.
+1. Win / lose condition: the game should run until either the player wins (uncover all clear squares) or lose (hit a mine) -- when the game is over, the player should be informed whether they win or lose.
 

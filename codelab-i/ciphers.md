@@ -100,3 +100,39 @@ In order to recover the plaintext, the recipient has to construct a grid with th
 
 ### Enigma
 
+The Enigma machine has a keyboard for entering the text to be encrypted, a "reflector", and three "rotors". The rotor settings define the encryption key.
+
+![Photograph of an Enigma Machine](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Enigma_%28crittografia%29_-_Museo_scienza_e_tecnologia_Milano.jpg/800px-Enigma_%28crittografia%29_-_Museo_scienza_e_tecnologia_Milano.jpg)
+
+- When a key is pressed, a letter is entered.
+
+  This letter will be represented by `X`.
+- The key press makes the first rotor, Rotor 3 "advances" by one, i.e., it's setting increases by one.
+- Each of the three rotors performs a substitution:
+  - First `Rot3(X) ==> X'`,
+  - then `Rot2(X') ==> X''`,
+  - and finally `Rot1(X'') ==> Y`
+- Next, the reflector performs a substitution on `Y`.
+  - `Refl(Y) ==> Y'`
+- To completee the encryption, the output of the reflector, `Y'`, is passed through the reflectors in reverse order.
+  - `Inv(Rot1(Y')) ==> Z`
+  - `Inv(Rot2(Z)) ==> Z'`
+  - `Inv(Rot3(Z')) ==> Z''`
+- Theree is a notch on rotor 2 which is caught by Rotor 3, causing Rotor 2's setting to increase by 1.
+- Similarly, there is a notch on Rotor 2, which moves Rotor 1 to the next setting.
+
+A detailed description can be found at [https://www.codesandciphers.org.uk](https://www.codesandciphers.org.uk/enigma/index.htm).
+
+**Implement the Enigma Machine.**
+
+To get you started, here are the substitutions performed by each rotor, the notch positions which cause Rotors 2 and 1 to increment, and the substitution performed by the Reflector.
+```c++
+// rotor and reflector configurations
+const char ROT_III[]   = "BDFHJLCPRTXVZNYEIWGAKMUSQO";
+const char ROT_II[]    = "AJDKSIRUXBLHWTMCQGZNPYFVOE";
+const char ROT_I[]     = "EKMFLGDQVZNTOWYHXUSPAIBRCJ";
+const char REFLECTOR[] = "YRUHQSLDPXNGOKMIEBFZCWVJAT";
+const int NOTCH_II = 7;
+const int NOTCH_I = 19;
+```
+

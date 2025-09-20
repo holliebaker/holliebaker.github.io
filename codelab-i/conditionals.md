@@ -41,11 +41,12 @@ It should identify the following types of triangles.
 - Isosceles: if two of the sides have the same length.
 - Right-angled: you can check this using pythagoras' Theorem. I.e., if A^2 + B^2 = C^2 then it's a right-angled triangle, otherwise it is not.
 
-<details>
+<details markdown="block">
 <summary>Extension task</summary>
 
 Adapt your program to handle the case when the numbers are not entered in ascending order.
 I.e., for your existing logic to keep working, you'll need to re-arrange the inputted numbers so that A <= B <= C
+
 </details>
 
 ### Days in each month
@@ -53,12 +54,13 @@ I.e., for your existing logic to keep working, you'll need to re-arrange the inp
 Write a program which takes a number from 1 to 12 as input, representing a month of the year.
 The program should use a **switch statement** to output the number of days in that month.
 
-<details>
+<details markdown="block">
 <summary>Extension tasks</summary>
 
 - What happens if the user enters a number which doesn't represent a month of the year.
 - What happens if the user enters some input which is not a number?
 - What about leap-years?
+
 </details>
 
 ### Terminal User Interface
