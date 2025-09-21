@@ -24,10 +24,13 @@ The best way to learn to code is to... write lots of code. With that in mind, he
 
 At this point, you might like to move on to some <em>bigger projects</em>. Alternatively, contiue with the topics below.
 
-5. Functions
+5. [Functions](./functions)
+
+    See Chapter 5 of the Codelab I repository.
 
 6. Struct
 
+    See Chapter 6 of the Codelab I repository.
 ## Projects
 
 1. See the Further Exercises section of the Codelab I repository.
