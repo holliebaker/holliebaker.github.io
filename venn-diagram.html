@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Venn diagram</title>
+        <style>
+body {
+  margin: 0 auto;
+}
+
+textarea, button {
+    display: block;
+    width: 100%;
+}
+        </style>
+    </head>
+
+    <body>
+        <h1>Venn and Euler diagrams with venn.js!</h1>
+        <p><a href="https://github.com/benfred/venn.js/">https://github.com/benfred/venn.js/</a></p>
+        <p>Define your sets as an array of JSON objects with name and size, then press the button (see example below).</p>
+        <p>The programmer was lazy -- if no diagram appears, please check the console for unhandled errors.</p>
+        <pre><code>
+[ {"sets": ["A"], "size": 12},
+  {"sets": ["B"], "size": 12},
+  {"sets": ["A","B"], "size": 2}
+]
+        </code></pre>
+        <textarea rows="8" id="data"></textarea>
+        <button onclick="render()">Make diagram.</button>
+        <button onclick="exportSvg()">Gimme an SVG, please!</button>
+        <div class="venn" id="venn"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/venn.js/0.2.14/venn.min.js" integrity="sha512-GD8ARj8X9kekhAYRWlxSo6/bU0QHBdoyWi14HxBDIPUJKvOYxXe9Fac2b2SxjucmaxIJ+BraVRfBo144vbZoyQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+const render = _ => {
+    // get data outa that text field
+    const jsonText = document.querySelector("#data").value
+    const sets = JSON.parse(jsonText)
+
+    // draw chart
+    let chart = venn.VennDiagram()
+    d3.select("#venn").datum(sets).call(chart)
+}
+
+const exportSvg = async _ => {
+    svg = document.querySelector("#venn").firstChild
+    svg.setAttribute("xmlns", "http://www.w3.org/2000/svg")
+
+    const blob = new Blob([svg.outerHTML], {
+      type: "image/svg+xml",
+    })
+    const downloadelem = document.createElement("a");
+    const url = URL.createObjectURL(blob);
+    document.body.appendChild(downloadelem);
+    downloadelem.href = url;
+    downloadelem.click();
+    downloadelem.remove();
+    window.URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
