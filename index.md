@@ -1,6 +1,6 @@
 # About
 
-<img alt="Photograph of Hollie, head and shoulders, against a red brick wall" src="./head.jpg" width="300px" style="float: right; width: 800px" />
+<img alt="Photograph of Hollie, head and shoulders, against a red brick wall" src="./head.jpg" style="float: right; width: 250px; margin: 1rem" />
 
 I'm an [associate lecturer](https://www.bathspa.ac.uk/our-people/hollie-baker/) in Computer Science and Creative Computing at [Bath Spa Uni(https://www.bathspa.ac.uk/). 
 
@@ -8,6 +8,9 @@ I also work with [Bristol Braille Technology CIC]https://bristolbraille.org) dev
 As a Braille reader, I'm excited to work on Bristol Braille's open source projects which improve access to STEM subjects for blind people, and allow them to collaborate with sighted colleagues on an equal footing.
 
 I've also produced some demonstration and promotional videos for the Canute, as well as exhibiting with Bristol Braille at sight loss events, most recently [Sight Village Central](https://www.qac.ac.uk/exhibitions/sight-village-events-2026--dates--venues/1080.htm), and demonstrated how the Canute can be used in maths and computer science at [New College Worcester](https://ncw.co.uk). 
+
+Watch our demo videos, with Steph Sergeant, director of [Vision Through Sound](https://www.visionthroughsound.co.uk/) on [Bristol Braille YouTube channel](https://www.youtube.com/@bristolbrailletechnology8169).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=SpMLwoNDXhONGOb9&amp;list=PLT4qC2AcmGbehS5U-6YqyIosIpACxGHq_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Projects.
 
