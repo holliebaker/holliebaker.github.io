@@ -1,4 +1,6 @@
-# Associate Lecturer, Software Developer, Braillist.
+# About
+
+<img alt="Photograph of Hollie, head and shoulders, against a red brick wall" src="./head.jpg" width="300px" style="float: right; width: 800px" />
 
 I'm an [associate lecturer](https://www.bathspa.ac.uk/our-people/hollie-baker/) in Computer Science and Creative Computing at [Bath Spa Uni(https://www.bathspa.ac.uk/). 
 
